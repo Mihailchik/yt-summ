@@ -1,0 +1,36 @@
+# Байткод Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc~
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# Логи
+logs/
+*.log
+
+# Конфигурационные файлы, содержащие секреты
+config_prod/app.yaml
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы редактора
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
+
+# Прочее
+.DS_Store
+Thumbs.db

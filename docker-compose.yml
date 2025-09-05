@@ -1,0 +1,11 @@
+
+services:
+  yt-sum-bot:
+    build: .
+    container_name: yt-sum-bot
+    restart: unless-stopped
+    volumes:
+      - ./config_prod:/app/config_prod
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app/src

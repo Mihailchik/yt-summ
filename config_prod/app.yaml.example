@@ -1,0 +1,17 @@
+# Пример конфигурационного файла для YT_Sum_Prod
+# Скопируйте этот файл в app.yaml и заполните своими значениями
+
+telegram:
+  bot_token: "ВАШ_TELEGRAM_BOT_TOKEN"
+  bot_username: "@Yotube_sum_bot"  # Имя вашего бота в Telegram
+
+gemini:
+  api_key: "ВАШ_GOOGLE_GEMINI_API_KEY"
+  model: "gemini-pro"
+
+notion:
+  token: "ВАШ_NOTION_API_TOKEN"
+  database_id: "ID_БАЗЫ_ДАННЫХ_NOTION"
+
+supadata:
+  api_key: "ВАШ_SUPADATA_API_KEY"
